@@ -34,7 +34,7 @@ const NavLink = ({ children }) => (
       textDecoration: "none",
       color: "black",
       borderBottomColor: "orange",
-      borderBottomWidth: 2,
+      borderBottomWidth: { base: 0, md: 2 },
     }}
   >
     <Link
